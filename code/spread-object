@@ -1,0 +1,17 @@
+//
+const fruits = ["apple", "banana", "orange"];
+const newFruits = [...fruits, "kiwi"];
+console.log(newFruits);
+
+const fruit = {
+    title: "apple",
+    color: "red",
+    weight: 200
+};
+console.log(fruit)
+
+const sreciaiOrange = {...fruit, color: "orange", country: "Marocco"};
+console.log(sreciaiOrange);
+
+const specialApple = {...fruit, color: "green", weight: 300};
+console.log(specialApple);
